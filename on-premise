@@ -1,0 +1,29 @@
+    1  ip a
+    2  ls /etc/ |grep netplan
+    3  ls /etc/netplan
+    4  nano 00-installer-config.yaml
+    5  sudo nano /etc /netplan  00-installer-config.yaml
+    6  sudo nano /etc/netplan/00-installer-config.yaml
+    7  sudo netplan generate
+    8  sudo nano /etc/netplan/00-installer-config.yaml
+    9  sudo netplan generate
+   10  sudo netplan apply
+   11  ip a
+   12  sudo systemctl restart networkmanager
+   13  sudo systemctl restart NetworkManager
+   14  sudo ls /etc |grep sysctl
+   15  sudo nano /etc/sysctl.d/99-onprem-router.conf
+   16  sudo sudo sysctl --system
+   17  sysctl net.ipv4.ip_forward
+   18  ip route
+   19  ping 8.8.8.8
+   20  curl -4 ifconfig.me
+   21  sudo apt install curl
+   22  curl -4 ifconfig.me
+   23  sudo ls /etc/ | grep ipsec
+   24  sudo ls /etc/ |grep ipsec
+   25  sudo apt install strongswan
+   26  sudo apt install strongswan-pk
+   27  sudo apt install strongswan-pki
+   28  sudo apt libcharon-extra-pl
+   29  sudo apt libcharon-extra-pls
